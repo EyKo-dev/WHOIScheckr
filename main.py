@@ -1,7 +1,6 @@
 import whois
 
 v = input("Renseignez le nom de domaine à analyser :\n")
-
 w = whois.whois(v)
 print(w)
 
